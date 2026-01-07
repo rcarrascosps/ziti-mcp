@@ -1,0 +1,1 @@
+{"version":3,"file":"index.d.ts","sourceRoot":"","sources":["../../src/transport/index.ts"],"names":[],"mappings":"AAAA;;GAEG;AAEH,OAAO,EACL,KAAK,UAAU,EACf,aAAa,EACb,cAAc,EACd,KAAK,UAAU,EACf,KAAK,gBAAgB,EACrB,KAAK,eAAe,EACrB,MAAM,iBAAiB,CAAC;AAEzB,OAAO,EACL,SAAS,EACT,KAAK,QAAQ,EACb,KAAK,eAAe,EACrB,MAAM,gBAAgB,CAAC;AAExB,OAAO,EACL,gBAAgB,EAChB,KAAK,uBAAuB,EAC7B,MAAM,uBAAuB,CAAC"}

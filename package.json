@@ -1,0 +1,48 @@
+{
+  "name": "ziti-mcp-sdk",
+  "version": "0.1.0",
+  "description": "SDK for consuming MCP Servers over OpenZiti zero-trust network",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "bin": {
+    "ziti-mcp-cli": "./dist/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "lint": "eslint src/",
+    "clean": "rimraf dist",
+    "cli": "node --loader ts-node/esm src/cli/index.ts",
+    "cli:dev": "npx tsx src/cli/index.ts"
+  },
+  "keywords": [
+    "mcp",
+    "openziti",
+    "ziti",
+    "zero-trust",
+    "model-context-protocol"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "@openziti/ziti-sdk-nodejs": "^0.16.0"
+  },
+  "peerDependenciesMeta": {
+    "@openziti/ziti-sdk-nodejs": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "rimraf": "^5.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0 <23.0.0"
+  }
+}
