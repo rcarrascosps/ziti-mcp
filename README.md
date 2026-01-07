@@ -41,6 +41,32 @@ Dark MCP over OpenZiti:
 
 ## Installation
 
+### From GitHub (recommended)
+
+```bash
+# Clone the repository
+git clone https://github.com/your-org/dark-mcp.git
+cd dark-mcp/ziti-mcp-sdk
+
+# Install dependencies
+npm install
+
+# Build
+npm run build
+
+# Link for local development (optional)
+npm link
+```
+
+Then in your project:
+
+```bash
+npm link ziti-mcp-sdk
+npm install @openziti/ziti-sdk-nodejs
+```
+
+### From npm (when published)
+
 ```bash
 npm install ziti-mcp-sdk @openziti/ziti-sdk-nodejs
 ```
