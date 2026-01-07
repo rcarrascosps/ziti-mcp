@@ -46,7 +46,7 @@ Dark MCP over OpenZiti:
 ```bash
 # Clone the repository
 git clone https://github.com/rcarrascosps/ziti-mcp
-cd dark-mcp/ziti-mcp-sdk
+cd ziti-mcp/ziti-mcp-sdk
 
 # Install dependencies
 npm install
