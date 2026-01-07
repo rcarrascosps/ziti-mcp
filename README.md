@@ -45,7 +45,7 @@ Dark MCP over OpenZiti:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/dark-mcp.git
+git clone https://github.com/rcarrascosps/ziti-mcp
 cd dark-mcp/ziti-mcp-sdk
 
 # Install dependencies
